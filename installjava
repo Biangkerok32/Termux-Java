@@ -19,7 +19,7 @@ echo
 			echo "\033[35mbye bye ... :D\033[0m"
 			exit
 fi
-			if [ $arch = "aarch64" -o $arch = "arm64" ] ; then
+			if [ $arch = "arm" -o $arch = "armv7l" ] ; then
 
 			echo "\033[32m[*] Now wait until jdk-8 is installing ...🕛🕧\033[0m"
 			echo
